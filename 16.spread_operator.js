@@ -27,26 +27,27 @@ normal(...arr); //here it converts/spread all array elements into sperate argume
 
 //1 merge array
 
-// const arr1 = [1,2]
-// const arr2 = [3,4]
-// const merge = [...arr1, ...arr2]
-// console.log(merge)
+const arr1 = [1,2]
+const arr2 = [3,4]
+const merge = [...arr1, ...arr2]
+console.log(merge)
 
 //2 clone array
 
-// const arr1 = ['apple', 'Samsung', 'oppo', 'vivo']
-// const clone = [...arr1]
-// console.log(clone)
+const arr1 = ['apple', 'Samsung', 'oppo', 'vivo']
+const clone = [...arr1]
+console.log(clone)
 
 //3 combine obj
 
-// const obj1 = {
-//     name: 'Utsav',
-//     age: 23,
-// }
-// const obj2 = {
-//     email: 'utsav@gmail.com',
-//     admin: true
-// }
-// const combine = {...obj1, ...obj2}
-// console.log(combine)
+const obj1 = {
+    name: 'Utsav',
+    age: 23,
+}
+const obj2 = {
+    email: 'utsav@gmail.com',
+    admin: true
+}
+const combine = {...obj1, ...obj2}
+console.log(combine)
+
